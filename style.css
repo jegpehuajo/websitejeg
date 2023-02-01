@@ -1,5 +1,6 @@
 :root {
   --main-bg-color:#87ceeb;
+  --main-color:#333;
 }
 a {
   text-decoration: none;
@@ -27,11 +28,11 @@ nav li {
   padding: 5px;
 }
 nav li a {
-  color:#333;
+  color: var(--main-color);
   font-weight: bold;
-  text-transform: uppercase;
 }
 .nav-main {
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 }
